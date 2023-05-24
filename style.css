@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    
+}
+main {
+    background-color: aqua;
+    margin: 20px;
+    flex-wrap: wrap;
+    contain:content;
+    display: flex;
+    
+    
+}
+.n1 {
+    justify-content: center;
+}
+.n2 {
+    justify-content: space-between;
+}
+.n3 {
+    justify-content: center ;
+}
+.p {
+    width: 31%;
+    height: 200px;
+    
+}
